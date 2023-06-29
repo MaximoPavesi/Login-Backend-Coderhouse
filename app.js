@@ -24,7 +24,7 @@ app.use(session({
     resave: false,
     saveUninitialized: true,
     store: new mongoStore({
-        mongoUrl: 'mongodb+srv://fedeeribeiro:coderhouse@cluster0.hj7njhs.mongodb.net/desafio5?retryWrites=true&w=majority'
+        mongoUrl: 'localhost:27017'
         })
     })
 );
